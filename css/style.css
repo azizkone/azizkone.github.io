@@ -71,12 +71,12 @@
 }
 .align-bottom p{
      color: black;
-margin-top: 200px;
+margin-top: 180px;
     float: right;
 font-family: 'Roboto Slab', serif;
     font-size: 20px;
   word-spacing: normal;
-    text-transform:lowercase;
+    text-transform: capitalize;
 }
 
 
@@ -88,7 +88,7 @@ font-family: 'Roboto Slab', serif;
 }
 h1.section-heading {
     margin: 0px;
-    margin-top: -10px;
+    margin-top: 20px;/*-20px*/
     font-family: 'Raleway',sans-serif;
     font-size: 62px;
     font-weight: 900;
