@@ -38,9 +38,9 @@
      top: 50px;
   }
   #a-propos {padding-top:50px;height:750px;color: #fff; background-color: white;}
-  #competences{padding-top:50px;height:700px;color: #fff; background-color:#eee;}/*#959997*/
+  #competences{padding-top:50px;height:750px;color: #fff; background-color:#eee;}/*#959997*/
   #diplomes {padding-top:50;height:1100px;color: #fff; background-color:white;}/*CCCCCC*/
-  #interets{padding-top:50px;height:800px;color: #fff; background-color: #eee;}/*6a6e6e*/
+  #interets{padding-top:50px;height:720px;color: #fff; background-color: #eee;}/*6a6e6e*/
   #contact{padding-top:50px;height:1100px;color: #fff; background-color:white;}
   #pied-page{ background-color: #1a3b6f;}
 
@@ -110,7 +110,8 @@ h2.section-heading2{
 }
 h2.color{
     color: black;
-        background-color: #337ab7;
+    background-color: red;
+      /*  background-color: #337ab7;*/
     /*background-color:  #fa6862;*/
     font-weight: 900;
     font-size: 30px;
@@ -119,6 +120,10 @@ h2.color{
 }
 p.color{
     color: black;
+    font-family: 'Roboto Slab', serif;
+}
+strong p.color{
+  font-family: 'Black Han Sans', sans-serif;
 }
 #competences .partie1 p{
     text-align: left;

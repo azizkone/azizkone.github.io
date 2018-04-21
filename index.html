@@ -19,6 +19,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="jQuery-plugin-progressbar.js"></script>
+  <script src="js/map.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="fonts/dist/js/bootstrap.min.js"></script>
 </head>
@@ -99,7 +100,7 @@
    margin-top:-220px; float:left;">
       <div class="progress">
         <div class="progress-bar bg-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%; background-color:#00313B; font-weight:1000; border-color:black;">
-          BOOTSTRAP & JQUERY
+          BOOTSTRAP & JQUERY <!--<span style="margin-left:250px;">80%</span>-->
         </div>
       </div>
       <br/>
@@ -167,6 +168,7 @@
     <h1 class="section-heading">interets</h1>
     <h2 class="section-heading2">Un peu geek sur les bords.</h2>
 <div class="groupe">
+  <div class="aziz">
     <div class="wrapper">
       <i class="cinema-icon"></i>
       <h1>Cinema</h1>
@@ -193,6 +195,7 @@
     </div>
     <script src="jQuery/jquery.js"></script>
     <script src="jQuery/jquery_library2.js"></script>
+    </div>
   </div>
 </div>
   <div id="contact" class="container-fluid">
@@ -216,150 +219,6 @@
       }
     </style>
     <div id="map"></div>
-    <script>
-      function initMap() {
-        // Styles a map in night mode.
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: {
-            lat: 43.6043,
-            lng: 1.4437
-          },
-          zoom: 12,
-          styles: [{
-              elementType: 'geometry',
-              stylers: [{
-                color: '#242f3e'
-              }]
-            },
-            {
-              elementType: 'labels.text.stroke',
-              stylers: [{
-                color: '#242f3e'
-              }]
-            },
-            {
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#746855'
-              }]
-            },
-            {
-              featureType: 'administrative.locality',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#d59563'
-              }]
-            },
-            {
-              featureType: 'poi',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#d59563'
-              }]
-            },
-            {
-              featureType: 'poi.park',
-              elementType: 'geometry',
-              stylers: [{
-                color: '#263c3f'
-              }]
-            },
-            {
-              featureType: 'poi.park',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#6b9a76'
-              }]
-            },
-            {
-              featureType: 'road',
-              elementType: 'geometry',
-              stylers: [{
-                color: '#38414e'
-              }]
-            },
-            {
-              featureType: 'road',
-              elementType: 'geometry.stroke',
-              stylers: [{
-                color: '#212a37'
-              }]
-            },
-            {
-              featureType: 'road',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#9ca5b3'
-              }]
-            },
-            {
-              featureType: 'road.highway',
-              elementType: 'geometry',
-              stylers: [{
-                color: '#746855'
-              }]
-            },
-            {
-              featureType: 'road.highway',
-              elementType: 'geometry.stroke',
-              stylers: [{
-                color: '#1f2835'
-              }]
-            },
-            {
-              featureType: 'road.highway',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#f3d19c'
-              }]
-            },
-            {
-              featureType: 'transit',
-              elementType: 'geometry',
-              stylers: [{
-                color: '#2f3948'
-              }]
-            },
-            {
-              featureType: 'transit.station',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#d59563'
-              }]
-            },
-            {
-              featureType: 'water',
-              elementType: 'geometry',
-              stylers: [{
-                color: '#17263c'
-              }]
-            },
-            {
-              featureType: 'water',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#515c6d'
-              }]
-            },
-            {
-              featureType: 'water',
-              elementType: 'labels.text.stroke',
-              stylers: [{
-                color: '#17263c'
-              }]
-            }
-          ]
-        });
-        var marker = new google.maps.Marker({
-          position: {
-            lat: 43.6043,
-            lng: 1.4437
-          },
-          map: map
-        });
-
-      }
-    </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLe1ZfB-f066exQFWFA7Z7M2Z0M9FNirY&callback=initMap" async defer></script>
 
     <!--fin de map-->
