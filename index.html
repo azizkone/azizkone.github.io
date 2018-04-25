@@ -21,17 +21,21 @@
   <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="jQuery-plugin-progressbar.js"></script>
   <script src="js/map.js"></script>
+  <script src="js/sw.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="fonts/dist/js/bootstrap.min.js"></script>
 </head>
-
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-  <div class="container-fluid" style="/*background-image:url(image/carre.jpeg);*/background:linear-gradient(65deg,#e04d8b,#18bdde 60%);/*ackground-color:black;/*#132c54;/*#34393E;*/color:#34393E;height:725px;">
+<body data-spy="scroll" data-target=".navbar" data-offset="50" style="width:100%;">
+  <div id="accueil" class="container-fluid" style="/*background-image:url(image/carre.jpeg);*/background:linear-gradient(65deg,#e04d8b,#18bdde 60%);/*ackground-color:black;/*#132c54;/*#34393E;*/color:#34393E;height:725px;">
     <div class="bg-1">
       <div class="container text-center">
-        <h1 style=" color: #ffffff;font-weight: 900; font-family: 'Raleway',sans-serif;">KONE AZIZ KARAMOKO</h1>
-        <img src="image/aziz1.png" class="img-circle" alt="Bird" width="350" height="350">
-        <h3 class="blink_me" style=" color: #ffffff;font-weight: 900; font-family: 'Raleway',sans-serif;">WEB DEVELOPPEUR</h3> </div>
+        <img src="image/aziz1.png" class="img-circle" alt="Bird" width="350" height="350" style="margin-top:-40px;">
+        <h1 style=" color: #ffffff;font-weight: 900; font-family: 'Raleway',sans-serif;margin-top: -12px; text-align:center;">KONE AZIZ KARAMOKO</h1>
+        <h3 class="blink_me" style=" color: #ffffff;font-weight: 900; font-family: 'Raleway',sans-serif;">WEB DEVELOPPEUR</h3>
+       </div>
+       <section id="section07" class="demo">
+     <a href="#a-propos"><span></span><span></span><span></span>CURRICULUM VITAE</a>
+      </section>
     </div>
   </div>
   <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
@@ -42,7 +46,7 @@
       <div id="menu">
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="#" style="font-weight: 900;">accueil</a></li>
+            <li><a href="#accueil" style="font-weight: 900;">accueil</a></li>
             <li><a href="#a-propos" style="font-weight: 900;">a-propos</a></li>
             <li><a href="#competences" style="font-weight: 900;">competences</a></li>
             <li><a href="#diplomes" style="font-weight: 900;">diplomes</a></li>
