@@ -1,0 +1,206 @@
+#interets p {
+  color: black;
+}
+.aziz{
+  margin-top:-120px;
+}
+   .groupe {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+    /* align-items: center;*/
+     /*align-content: stretch;*/
+   }
+   .wrapper {
+    width: 200px;
+    text-align: center;
+    height: auto;
+    position: absolute;
+    margin-left: -250px;
+    left: 30%;
+    margin-top: 200px;
+    text-transform: capitalize;
+    /*top:50%; left:50%; transform:translate(-50%,-50%)*/
+  }
+
+  .wrapper h1 {
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    color: blue;
+  }
+
+  .cinema-icon svg {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    -webkit-transition: 0.6s ease-out;
+    -moz-transition: 0.6s ease-out;
+    transition: 0.6s ease-out;
+  }
+
+  .cinema-icon svg:hover {
+    -webkit-transform: rotateZ(720deg);
+    -moz-transform: rotateZ(720deg);
+    transform: rotateZ(720deg);
+    fill: blue;
+  }
+
+  .wrapper {
+    /*font-size: 30px;*/
+    text-align: center;
+  }
+
+  /*---------------wrapper2----------*/
+
+  .wrapper2 {
+    width: 227px;
+    text-align: center;
+    height: auto;
+    position: absolute;
+    margin-left: -200px;
+    left: 45%;
+    margin-top: 200px;
+    text-transform: capitalize;
+  }
+
+  .wrapper2 h1 {
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    color: #D37230;
+  }
+
+  .basket-icon svg {
+    width: 60px;
+    height: 70px;
+    text-align: center;
+  }
+
+  .basket-icon svg:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    fill: #D37230;
+  }
+
+  /*---------------wrapper3----------*/
+
+  .wrapper3 {
+    width: 180px;
+    text-align: center;
+    height: auto;
+    position: absolute;
+    margin-left: 30px;
+    left: 50%;
+    margin-top: 200px;
+    text-transform: capitalize;
+  }
+
+  .wrapper3 h1 {
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    color: red;
+  }
+
+  .cuisine-icon svg {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+  }
+
+  .cuisine-icon svg:hover {
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+    fill: red;
+  }
+
+  /*---------------wrapper4----------*/
+
+  .wrapper4 {
+    width: 225px;
+    text-align: center;
+    height: auto;
+    position: absolute;
+    margin-left: 60px;
+    left: 65%;
+    margin-top: 210px;
+    text-transform: capitalize;
+  }
+
+  .wrapper4 h1 {
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    color: #394A08;
+  }
+
+  .techno-icon svg {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+  }
+
+  .techno-icon svg:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    fill: #394A08;
+  }
+
+  /*---------animation titre h2 devollopeur web -------*/
+
+  .blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @-moz-keyframes blinker {
+    0% {
+      opacity: 1.0;
+    }
+    50% {
+      opacity: 0.0;
+    }
+    100% {
+      opacity: 1.0;
+    }
+  }
+
+  @-webkit-keyframes blinker {
+    0% {
+      opacity: 1.0;
+    }
+    50% {
+      opacity: 0.0;
+    }
+    100% {
+      opacity: 1.0;
+    }
+  }
+
+  @keyframes blinker {
+    0% {
+      opacity: 1.0;
+    }
+    50% {
+      opacity: 0.0;
+    }
+    100% {
+      opacity: 1.0;
+    }
+  }
