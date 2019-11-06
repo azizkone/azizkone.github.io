@@ -494,7 +494,8 @@ border: 4px solid #286090;
 /* The actual content */
 .content {
     padding: 20px 30px;
-    background-color: #999;
+    /*background-color: #999;*/
+    background-color: #eee;
     /*background-color: white;*/
     position: relative;
     border-radius: 6px;
